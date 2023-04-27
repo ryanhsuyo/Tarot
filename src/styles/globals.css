@@ -25,3 +25,56 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+body {
+  margin: 0 auto;
+  height: 100vh;
+}
+.tarot-spread {
+  position: relative;
+  width: auto;
+  height: 1200px;
+  margin: 0 auto;
+  /* background-color: #fff; */
+  border: 2px solid #000;
+}
+
+.tarot-card {
+  position: absolute;
+  object-fit: cover;
+  top: 500px;
+  width: 120px;
+  height: 300px;
+}
+.tarot-card-img {
+  width: 120px;
+  height: 300px;
+}
+.tarot-card:nth-child(n) {
+  top: calc(50% - (2 * n) * 100px);
+  left: calc(50% - (11 * n) * 10px);
+}
+
+.tarot-card-img:hover {
+  box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.2);
+  transform: scale(1.1);
+  cursor: pointer;
+  border: #fff;
+}
+
+/* .tarot-card-info {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+    background-color: #000;
+    color: #fff;
+  }
+  
+  .tarot-card-info h3 {
+    margin: 0;
+  } */
