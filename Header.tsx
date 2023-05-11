@@ -12,7 +12,7 @@ const fortuneTellingPage: React.FC = () => {
                     <div className='w-8/12 flex'>
 
                         <div className="flex items-center px-10">
-                            <Link href="/TarotCardsIntro">1</Link>
+                            <Link href="/TarotCardsIntroPage">1</Link>
                         </div>
                         <div className="flex items-center px-10">2</div>
                         <div className="flex  items-center px-10">3</div>

@@ -11,16 +11,13 @@ const Breadcrumbs = () => {
         <div className='w-full bg-black'>
             <Breadcrumb spacing="8px" className="text-white  mt-20 w-10/12 mx-auto">
                 <BreadcrumbItem>
-                    <BreadcrumbLink href="#" >Home</BreadcrumbLink>
+                    <BreadcrumbLink href="/" >Home</BreadcrumbLink>
                 </BreadcrumbItem>
 
                 <BreadcrumbItem>
-                    <BreadcrumbLink href="#">About</BreadcrumbLink>
+                    <BreadcrumbLink href="/TarotCardsIntroPage">塔羅牌算命</BreadcrumbLink>
                 </BreadcrumbItem>
 
-                <BreadcrumbItem isCurrentPage>
-                    <BreadcrumbLink href="#">Contact</BreadcrumbLink>
-                </BreadcrumbItem>
             </Breadcrumb>
             </div>
         </>
