@@ -3,8 +3,11 @@ import TarotCardsInfoTable from '../components/TarotCardsInfo/TarotCardsInfoTabl
 const TarotCardIntroPage = () => {
     return (
         <>
-            <div className="mt-12">塔羅牌簡介</div>
-            <TarotCardsInfoTable />
+            <div className='bg-violet-950 w-full h-[100vh]'>
+
+               
+                <TarotCardsInfoTable />
+            </div>
         </>
     );
 };

@@ -13,34 +13,69 @@ import {
 const TarotCardTable = () => {
     const tarotCards = [
         {
-            name: 'The Fool',
-            image: 'https://example.com/the-fool.jpg',
-            keywords: 'Innocence, New beginnings',
-            uprightMeaning: 'New opportunities and adventures',
-            reversedMeaning: 'Carelessness and recklessness',
-            number: '0',
-            majorArcana: 'The Fool',
-            element: 'Air',
-            cost: 'None',
-            description: 'Description of the Fool card',
-            interpretation: 'Interpretation of the Fool card',
-            zodiac: 'None',
-            crystal: 'None',
-            astrologicalSymbol: 'None',
+        name: '愚者',
+        image: 'https://example.com/the-fool.jpg',
+        keywords: '純真、新的開始',
+        uprightMeaning: '新的機會和冒險',
+        reversedMeaning: '粗心和魯莽',
+        number: '0',
+        majorArcana: '愚者牌',
+        element: '空氣',
+        cost: '無',
+        description: '愚者牌的描述',
+        interpretation: '愚者牌的解釋',
+        zodiac: '無',
+        crystal: '無',
+        astrologicalSymbol: '無',
         },
-        // Add more tarot cards here
-    ];
+        {
+        name: '戀人',
+        image: 'https://example.com/the-lovers.jpg',
+        keywords: '愛情、合一',
+        uprightMeaning: '愛情和關係的綜合',
+        reversedMeaning: '分裂和選擇的困難',
+        number: '6',
+        majorArcana: '戀人牌',
+        element: '空氣',
+        cost: '無',
+        description: '戀人牌的描述',
+        interpretation: '戀人牌的解釋',
+        zodiac: '雙子座',
+        crystal: '玫瑰石',
+        astrologicalSymbol: '金星',
+        },
+        {
+        name: '力量',
+        image: 'https://example.com/strength.jpg',
+        keywords: '勇氣、自信',
+        uprightMeaning: '內在力量和控制',
+        reversedMeaning: '無力和失控',
+        number: '8',
+        majorArcana: '力量牌',
+        element: '火',
+        cost: '無',
+        description: '力量牌的描述',
+        interpretation: '力量牌的解釋',
+        zodiac: '獅子座',
+        crystal: '黃水晶',
+        astrologicalSymbol: '太陽',
+        },
+        ];
 
     return (
-        <TableContainer className="w-10/12 mx-auto">
+        <>
+  <div className="mx-auto bg-violet-950 w-full tarot-spread p-20">
+        <div className=" text-2xl mx-auto w-10/12 mt-12 text-white">塔羅牌簡介</div>
+        
+        <TableContainer className="w-10/12 mx-auto text-white my-12">
             <Table
                 variant="striped"
                 colorScheme="teal"
                 className="w-10/12 mx-auto"
             >
-                <TableCaption>Tarot Card Table</TableCaption>
+                {/* <TableCaption>Tarot Card Table</TableCaption> */}
                 <Thead>
-                    <Tr>
+                    <Tr className="text-white bg-black">
                         <Th>Name</Th>
                         <Th>Image</Th>
                         <Th>Keywords</Th>
@@ -81,6 +116,8 @@ const TarotCardTable = () => {
                 </Tbody>
             </Table>
         </TableContainer>
+        </div>
+        </>
     );
 };
 
