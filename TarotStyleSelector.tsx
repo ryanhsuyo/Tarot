@@ -8,9 +8,12 @@ const TarotStyleSelector: React.FC = () => {
         event,
     ) => {
         const inputElement = event.target as HTMLButtonElement;
-        console.log('123', inputElement.value);
+        console.log('now style', inputElement.value);
     };
     return (
+        <div>
+
+       
         <div className="flex w-full justify-around my-12 text-white font-semibold">
             <button
                 className={`tarot-button hover:text-teal-300 shadow ${
@@ -36,6 +39,12 @@ const TarotStyleSelector: React.FC = () => {
             >
                 Small Cross
             </button>
+        </div>
+            {
+                select === 'oneCard' &&
+                <div className='w-40 h-72 border-2 '></div>
+                
+            }
         </div>
     );
 };

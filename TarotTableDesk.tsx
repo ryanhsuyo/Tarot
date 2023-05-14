@@ -11,7 +11,7 @@ interface TarotCardProps {
 }
 
 const TarotTableDesk: React.FC = () => {
-    const [selectedCard,setSelectedCard] = useState()
+    const [selectedCard, setSelectedCard] = useState();
     function shuffleArray(array: number[]) {
         for (let i = array.length - 1; i > 0; i--) {
             const j = Math.floor(Math.random() * (i + 1));
