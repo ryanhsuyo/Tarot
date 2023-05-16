@@ -59,34 +59,23 @@ const TarotStyleSelector: React.FC = () => {
             }
      {
     select === 'smallCross' && (
-        <div className='grid grid-cols-12'>
-            <div className='grid grid-cols-3'>
-                <div>X</div>
-                <div className='w-40 h-72 border-2'></div>
-                <div>O</div>
+        <div className='flex-col w-full'>
+            <div className='flex justify-between'>
+            <div className='w-40 h-72 mx-2'></div>
+            <div className='w-40 h-72 border-2 mx-2'></div>
+            <div className='w-40 h-72 mx-2'></div>
             </div>
-            <div className='grid grid-cols-3'>
-                <div className='w-40 h-72 border-2'></div>
-                <div>X</div>
-                <div className='w-40 h-72 border-2'></div>
+            <div className='flex justify-between'>
+            <div className='w-40 h-72 border-2 mx-2'></div>
+            <div className='w-40 h-72 border-2 mx-2'></div>
+            <div className='w-40 h-72 border-2 mx-2'></div>
             </div>
-            <div className='grid grid-cols-3'>
-                <div>O</div>
-                <div className='w-40 h-72 border-2'></div>
-                <div>X</div>
+            <div className='flex justify-between'>
+            <div className='w-40 h-72 mx-2'></div>
+            <div className='w-40 h-72 border-2 mx-2'></div>
+            <div className='w-40 h-72 mx-2'></div>
             </div>
-            <div className='grid grid-cols-3'>
-                <div className='w-40 h-72 border-2'></div>
-                <div>O</div>
-                <div className='w-40 h-72 border-2'></div>
-            </div>
-            <div className='grid grid-cols-3'>
-                <div>X</div>
-                <div className='w-40 h-72 border-2'></div>
-                <div className='w-40 h-72 border-2'></div>
-            </div>
-            <div></div>
-        </div>
+      </div>
     )
 }
 

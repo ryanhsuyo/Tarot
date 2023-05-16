@@ -22,8 +22,8 @@ const TarotTableDesk: React.FC = () => {
     const numCards = 22;
     const width = 100;
     const height = 380;
-    const spreadWidth = 1800; //all w
-    const spreadHeight = 1200; // all h
+    const spreadWidth = 2200; //all w
+    const spreadHeight = 750; // all h
     const centerX = spreadWidth / 4; //center circle x
     const centerY = spreadHeight / 2; //center circle y
     const spreadAngle = 120; // degrees
@@ -62,8 +62,10 @@ const TarotTableDesk: React.FC = () => {
     return (
         <>
             <div className="mx-auto bg-violet-950 w-full tarot-spread p-20">
-                <TarotStyleSelector />
-                {cards}
+                <div className="h-96">{cards}</div>
+                <div>
+                    <TarotStyleSelector />
+                </div>
             </div>
         </>
     );
