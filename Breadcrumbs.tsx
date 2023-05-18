@@ -14,11 +14,27 @@ const Breadcrumbs = () => {
                     className="text-white  mt-20 w-10/12 mx-auto"
                 >
                     <BreadcrumbItem>
-                        <BreadcrumbLink className=" hover:text-teal-400" href="/">Home</BreadcrumbLink>
+                        <BreadcrumbLink
+                            className=" hover:text-teal-400"
+                            href="/"
+                        >
+                            首頁
+                        </BreadcrumbLink>
                     </BreadcrumbItem>
 
                     <BreadcrumbItem>
-                        <BreadcrumbLink className=" hover:text-teal-400" href="/TarotCardsIntroPage">
+                        <BreadcrumbLink
+                            className=" hover:text-teal-400"
+                            href="/TarotCardsIntroPage"
+                        >
+                            塔羅牌介紹
+                        </BreadcrumbLink>
+                    </BreadcrumbItem>
+                    <BreadcrumbItem>
+                        <BreadcrumbLink
+                            className=" hover:text-teal-400"
+                            href="/FortuneTellingPage"
+                        >
                             塔羅牌算命
                         </BreadcrumbLink>
                     </BreadcrumbItem>

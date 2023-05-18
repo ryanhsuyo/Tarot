@@ -10,9 +10,21 @@ const fortuneTellingPage: React.FC = () => {
                     </div>
                     <div className="w-8/12 flex">
                         <div className="flex items-center px-10">
-                            <Link className=' hover:text-teal-400' href="/TarotCardsIntroPage">塔羅牌介紹</Link>
+                            <Link
+                                className=" hover:text-teal-400"
+                                href="/TarotCardsIntroPage"
+                            >
+                                塔羅牌介紹
+                            </Link>
                         </div>
-                        <div className="flex items-center px-10">2</div>
+                        <div className="flex items-center px-10">
+                            <Link
+                                className=" hover:text-teal-400"
+                                href="/FortuneTellingPage"
+                            >
+                                塔羅牌算命
+                            </Link>
+                        </div>
                         <div className="flex  items-center px-10">3</div>
                     </div>
                 </div>
