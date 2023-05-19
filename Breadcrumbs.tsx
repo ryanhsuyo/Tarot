@@ -38,6 +38,14 @@ const Breadcrumbs = () => {
                             塔羅牌算命
                         </BreadcrumbLink>
                     </BreadcrumbItem>
+                    <BreadcrumbItem>
+                        <BreadcrumbLink
+                            className=" hover:text-teal-400"
+                            href="/StorePage"
+                        >
+                            塔羅牌算命
+                        </BreadcrumbLink>
+                    </BreadcrumbItem>
                 </Breadcrumb>
             </div>
         </>

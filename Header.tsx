@@ -25,6 +25,14 @@ const fortuneTellingPage: React.FC = () => {
                                 塔羅牌算命
                             </Link>
                         </div>
+                        <div className="flex items-center px-10">
+                            <Link
+                                className=" hover:text-teal-400"
+                                href="/StorePage"
+                            >
+                                商店
+                            </Link>
+                        </div>
                         <div className="flex  items-center px-10">3</div>
                     </div>
                 </div>
