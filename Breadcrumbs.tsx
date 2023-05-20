@@ -43,7 +43,7 @@ const Breadcrumbs = () => {
                             className=" hover:text-teal-400"
                             href="/StorePage"
                         >
-                            塔羅牌算命
+                            商店
                         </BreadcrumbLink>
                     </BreadcrumbItem>
                 </Breadcrumb>
