@@ -41,7 +41,7 @@ const TarotStyleSelector: React.FC = () => {
                 Small Cross
             </button>
         </div>
-        <div className='mx-auto w-full flex justify-around'>
+        <div className='mx-auto w-full flex justify-around h-full'>
 
             {
                 select === 'oneCard' &&
@@ -59,7 +59,7 @@ const TarotStyleSelector: React.FC = () => {
             }
      {
     select === 'smallCross' && (
-        <div className='flex-col w-full'>
+        <div className='flex-col w-full bg-indigo-950'>
             <div className='flex justify-between'>
             <div className='w-40 h-72 mx-2'></div>
             <div className='w-40 h-72 border-2 mx-2'></div>
