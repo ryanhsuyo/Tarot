@@ -1,5 +1,5 @@
-# 使用官方 Node.js 作为基础镜像
-FROM node:14
+# 使用官方 Node.js 16 作为基础镜像
+FROM node:18
 
 # 设置工作目录
 WORKDIR /app
@@ -20,7 +20,7 @@ RUN npm run build
 FROM nginx:alpine
 
 # 复制构建的文件到 Nginx 的 html 目录
-COPY --from=0 /app/build /usr/share/nginx/html
+COPY --from=0 /app/.next /usr/share/nginx/html
 
 # 暴露端口
 EXPOSE 80
