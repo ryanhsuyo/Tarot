@@ -17,7 +17,7 @@ const TarotCards: React.FC<TarotCardProps> = ({ id, image, style }) => {
   };
   useEffect(() => {
     setIdToShow(String(id));
-  }, []);
+  }, [id]);
 
   return (
     <div className="tarot-card" style={style}>

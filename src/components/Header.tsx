@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-const fortuneTellingPage: React.FC = () => {
+export const Header: React.FC<any> = ({setIsLoggedIn}) => {
   return (
     <>
       <div className="mx-auto bg-blue-800 w-full h-12 fixed flex justify-between top-0 z-50">
@@ -20,4 +20,3 @@ const fortuneTellingPage: React.FC = () => {
   );
 };
 
-export default fortuneTellingPage;

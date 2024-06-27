@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import { Inter } from 'next/font/google';
-import FortuneTellingPage from './FortuneTellingPage';
+import FortuneTellingPage from '@/pages/FortuneTellingPage';
 
 const inter = Inter({ subsets: ['latin'] });
 

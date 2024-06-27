@@ -5,7 +5,7 @@ import {
     BreadcrumbSeparator,
 } from '@chakra-ui/react';
 
-const Breadcrumbs = () => {
+export const Breadcrumbs = () => {
     return (
         <>
             <div className="w-full bg-black">
@@ -52,4 +52,3 @@ const Breadcrumbs = () => {
     );
 };
 
-export default Breadcrumbs;

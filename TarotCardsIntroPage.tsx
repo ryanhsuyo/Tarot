@@ -1,4 +1,4 @@
-import TarotCardsInfoTable from '../components/TarotCardsInfo/TarotCardsInfoTable';
+import TarotCardsInfoTable from './TarotCardsInfoTable' 
 
 const TarotCardIntroPage = () => {
     return (

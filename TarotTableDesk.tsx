@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import TarotCards from '../components/TarotCards';
+import TarotCards from '@/components/TarotCards';
 import tarotback from '../../public/images/IMG.jpeg';
 import TarotStyleSelector from './TarotStyleSelector';
 import Link from 'next/link';
